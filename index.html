@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bank Forum</title>
+  <link rel="stylesheet" type="text/css" href="validation.css">
+</head>
+<h1>Bank Forum</h1>
+
+<body>
+<form>
+  First Name:<br>
+  <input type="text" name="firstname"><br>
+  Middle Initial:<br>
+  <input type="text" name="middlename"><br>
+  Last Name:<br>
+  <input type="text" name="lastname"><br>
+  Street Adress:<br>
+  <input type="text" name="streetaddress"><br>
+  City:<br>
+  <input type="text" name="city"><br>
+  State:<br>
+  <input type="text" name="state"><br>
+  Zip Code:<br>
+  <input type="text" name="zip"><br>
+  Occupation:<br>
+  <input type="text" name="occupation"><br>
+  Employer:<br>
+  <input type="text" name="employer"><br>
+  Employer Adress:<br>
+  <input type="text" name="streetaddress"><br>
+  City:<br>
+  <input type="text" name="city"><br>
+  State:<br>
+  <input type="text" name="state"><br>
+  Zip Code:<br>
+  <input type="text" name="zip"><br>
+<br>
+<p>Chose a payment plan</p>
+<select>
+  <option value="commercial">Commercial</option>
+  <option value="realestate">Real estate</option>
+  <option value="personal">Personal</option>
+  <option value="Mortgage">Mortgage</option>
+</select>
+<br>
+<br>
+<br>
+<br>
+<p>Please enter the ammount of the loan</p>
+<span class="currencyinput">$<input type="text" name="currency"></span>
+<br>
+<p>Please select a length</p>
+<form action="">
+  <input type="radio" name="loan" value="5"> 5<br>
+  <input type="radio" name="loan" value="10"> 10<br>
+  <input type="radio" name="loan" value="15"> 15
+</form>
+<br>
+<p>Check all that apply</p>
+<form action="demo_form.asp">
+  <input type="checkbox" name="loan" value="down"> I have a down payment<br>
+  <input type="checkbox" name="loan" value="state" checked> Out-of-state resident<br>
+  <input type="checkbox" name="loan" value="married" checked> Married<br>
+  <input type="checkbox" name="loan" value="co" checked> Loan will be co-signed<br>
+ </form>
+<br>
+<form>
+  Email:<br>
+  <input type="text" name="email"><br>
+  Phone:<br>
+  <input type="text" name="phone"><br>
+  LinkedIn URL:<br>
+  <input type="text" name="linked"><br>
+</form>
+
+<p>Other information</p>
+<form action="/html/tags/html_form_tag_action.cfm" method="post">
+<div>
+<textarea name="comments" id="comments" style="font-family:sans-serif;font-size:1.2em;">
+Type Here
+</textarea>
+</div>
+<input type="submit" value="Submit">
+</form>
+
+</form>
+</body>
+</html>
