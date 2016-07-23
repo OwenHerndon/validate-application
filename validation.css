@@ -1,3 +1,13 @@
 body{
 	background: green;
 }
+
+input[type='email']:invalid{
+	color: white;
+	background: red;
+}
+
+input[type='email']:valid{
+	color: goldenrod;
+	background: green;
+}
